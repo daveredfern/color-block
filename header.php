@@ -29,7 +29,7 @@
 </head>
 <body>
 
-    <header class="u-section">
+    <header class="header">
         <nav class="nav">
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
         </nav>
