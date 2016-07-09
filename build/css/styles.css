@@ -27,13 +27,7 @@ html {
   color: #555;
   background-color: #f8f9fb;
   -webkit-text-size-adjust: 100%;
-  font-size: 110%; }
-  @media (min-width: 66em) {
-    html {
-      font-size: 120%; } }
-  @media (min-width: 90em) {
-    html {
-      font-size: 130%; } }
+  font-size: 100%; }
 
 ::-moz-selection {
   background-color: #0f73ee;
