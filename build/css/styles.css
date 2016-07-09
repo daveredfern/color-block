@@ -298,7 +298,7 @@ img {
   @media (min-width: 59em) {
     .project {
       height: 65vh; } }
-  @media (min-width: 90em) {
+  @media (min-width: 66em) {
     .project {
       width: 80vh; } }
   .project > * {
@@ -307,6 +307,6 @@ img {
     @media (min-width: 59em) {
       .project > * {
         width: 50%; } }
-    @media (min-width: 90em) {
+    @media (min-width: 66em) {
       .project > * {
         width: 40%; } }
