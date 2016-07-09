@@ -1,3 +1,7 @@
+// =============================================
+// Header
+// =============================================
+
 .header {
     position: fixed;
     top: 0;
@@ -11,8 +15,17 @@
 
 
 // =============================================
-// current menu item
+// nav
 // =============================================
+
+.nav > * {
+    margin-bottom: 0;
+    font-weight: bold;
+
+    a {
+        text-decoration: none;
+    }
+}
 
 .current-menu-item {
     opacity: 0.5;

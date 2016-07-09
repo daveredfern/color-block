@@ -250,5 +250,11 @@ img {
   -ms-flex-pack: justify;
       justify-content: space-between; }
 
+.nav > * {
+  margin-bottom: 0;
+  font-weight: bold; }
+  .nav > * a {
+    text-decoration: none; }
+
 .current-menu-item {
   opacity: 0.5; }
