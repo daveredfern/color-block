@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-
-
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="u-section">
 		<div class="welcome">
@@ -27,5 +25,41 @@
 		<p>Sorry, but you are looking for something that isn't here.</p>
 	</div>
 <?php endif; ?>
+
+
+<div class="u-container u-section">
+	<?php
+		$args = array(
+			'post_type' => 'projects',
+			'posts_per_page' => -1,
+		);
+		$projects = new WP_Query( $args );
+		if ( $projects->have_posts() ) : while ( $projects->have_posts() ) : $projects->the_post();
+
+		$featured_background_color = get('featured_background_color');
+		$featured_background_image = get('featured_background_image');
+		$featured_foreground_image = get('featured_foreground_image');
+
+		unset($inline_css);
+		if($featured_background_color) {
+			$inline_css = 'background-color:' . $featured_background_color . ';';
+		}
+		if($featured_background_image) {
+			$inline_css = 'background-image: url(' . $featured_background_image . ');';
+		}
+	?>
+
+	<div class="project"<?php if($inline_css) { echo ' style="' . $inline_css . '"'; }; ?>>
+		<?php if($featured_foreground_image) : ?>
+			<img src="<?php echo $featured_foreground_image; ?>" alt="<?php the_title(); ?>" />
+		<?php endif; ?>
+	</div>
+
+	<?php
+		endwhile; endif;
+		wp_reset_query();
+	?>
+</div>
+
 
 <?php get_footer(); ?>

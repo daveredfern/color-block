@@ -3,7 +3,7 @@
 // =============================================
 
 .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -14,8 +14,7 @@
         display: none;
     }
 
-    @media(min-width:$screen-sm) {
-        position: fixed;
+    @media(min-width:$screen-md) {
         display: flex;
         justify-content: space-between;
 

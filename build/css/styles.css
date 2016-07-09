@@ -238,7 +238,7 @@ img {
   max-width: 35em; }
 
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -246,9 +246,8 @@ img {
   padding: 1em 7vw; }
   .header > *:last-child {
     display: none; }
-  @media (min-width: 35em) {
+  @media (min-width: 59em) {
     .header {
-      position: fixed;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: justify;
@@ -280,3 +279,17 @@ img {
   color: #111;
   line-height: 1;
   margin-top: 10vh; }
+
+.project {
+  min-height: 20em;
+  max-height: 50em;
+  height: 70vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .project > * {
+    width: 60%;
+    max-width: 30em; }
