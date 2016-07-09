@@ -307,6 +307,3 @@ img {
     @media (min-width: 59em) {
       .project > * {
         width: 50%; } }
-    @media (min-width: 66em) {
-      .project > * {
-        width: 40%; } }
