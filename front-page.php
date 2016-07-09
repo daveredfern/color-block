@@ -15,7 +15,9 @@
 				</div>
 			</div>
 			<div class="welcome__body">
-				<?php the_content(); ?>
+				<div class="u-container">
+					<?php the_content(); ?>
+				</div>
 			</div>
 		</div>
 	</div>
