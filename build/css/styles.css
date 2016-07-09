@@ -268,6 +268,9 @@ img {
 .current-menu-item {
   opacity: 0.5; }
 
+.welcome {
+  margin-bottom: 20vh; }
+
 .logo {
   font-size: 22vw;
   text-transform: uppercase;
