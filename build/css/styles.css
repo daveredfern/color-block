@@ -239,16 +239,19 @@ img {
   max-width: 35em; }
 
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   background-color: #fff;
-  padding: 1em 2em;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
+  padding: 1em 2em; }
+  @media (min-width: 35em) {
+    .header {
+      position: fixed;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: justify;
+          justify-content: space-between; } }
 
 .nav > * {
   margin-bottom: 0;
@@ -267,4 +270,5 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  color: #111; }

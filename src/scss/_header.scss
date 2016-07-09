@@ -3,14 +3,18 @@
 // =============================================
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     background-color: $white;
     padding: 1em 2em;
-    display: flex;
-    justify-content: space-between;
+
+    @media(min-width:$screen-sm) {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 
@@ -43,4 +47,5 @@
     margin-bottom: 0;
     display: flex;
     justify-content: space-between;
+    color: $dark-grey;
 }
