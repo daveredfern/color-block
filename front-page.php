@@ -36,9 +36,9 @@
 		$projects = new WP_Query( $args );
 		if ( $projects->have_posts() ) : while ( $projects->have_posts() ) : $projects->the_post();
 
-		$featured_background_color = get('featured_background_color');
-		$featured_background_image = get('featured_background_image');
-		$featured_foreground_image = get('featured_foreground_image');
+		$featured_background_color = get_field('featured_background_color');
+		$featured_background_image = get_field('featured_background_image');
+		$featured_foreground_image = get_field('featured_foreground_image');
 
 		unset($inline_css);
 		if($featured_background_color) {
