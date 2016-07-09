@@ -44,7 +44,7 @@ html {
   color: #f8f9fb; }
 
 body {
-  padding: 5em 2em 2em 2em; }
+  padding: 5em 7vw 7vw; }
 
 p, ul, ol {
   margin-bottom: 1.618em; }
@@ -243,7 +243,7 @@ img {
   left: 0;
   right: 0;
   background-color: #fff;
-  padding: 1em 2em; }
+  padding: 1em 7vw; }
   @media (min-width: 35em) {
     .header {
       position: fixed; } }
