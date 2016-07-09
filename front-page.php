@@ -27,7 +27,7 @@
 <?php endif; ?>
 
 
-<div class="u-container u-section">
+<div class="u-section">
 	<?php
 		$args = array(
 			'post_type' => 'projects',
@@ -39,6 +39,10 @@
 		$featured_background_color = get_field('featured_background_color');
 		$featured_background_image = get_field('featured_background_image');
 		$featured_foreground_image = get_field('featured_foreground_image');
+
+		print_r($featured_background_color);
+		print_r($featured_background_image);
+		print_r($featured_foreground_image);
 
 		unset($inline_css);
 		if($featured_background_color) {
