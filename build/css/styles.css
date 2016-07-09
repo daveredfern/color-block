@@ -27,7 +27,8 @@ html {
   color: #555;
   background-color: #f8f9fb;
   -webkit-text-size-adjust: 100%;
-  font-size: 110%; }
+  font-size: 110%;
+  overflow-x: hidden; }
 
 ::-moz-selection {
   background-color: #0f73ee;

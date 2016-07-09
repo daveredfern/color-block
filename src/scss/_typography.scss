@@ -9,6 +9,7 @@ html {
     background-color: $light-grey;
     -webkit-text-size-adjust: 100%;
     font-size: 110%;
+    overflow-x: hidden;
 }
 
 ::selection {
