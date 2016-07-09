@@ -22,7 +22,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-	<link rel="stylesheet" href="<?php echo get_template_directory(); ?>/build/css/styles.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/build/css/styles.css" type="text/css" media="all" />
 
 	<?php wp_head(); ?>
 
