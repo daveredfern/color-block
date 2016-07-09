@@ -10,15 +10,12 @@
     background-color: $white;
     padding: 1em 7vw;
 
-    @media(min-width:$screen-sm) {
-        position: fixed;
-    }
-
     > *:last-child {
         display: none;
     }
 
-    @media(min-width:$screen-md) {
+    @media(min-width:$screen-sm) {
+        position: fixed;
         display: flex;
         justify-content: space-between;
 

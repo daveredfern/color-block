@@ -30,13 +30,9 @@
 
 <div class="u-container">
 	<h2>Contact me</h2>
-	<p>For a quick response I recommend tweeting me. For a more indepth conversation feel free to send an email.</p>
-	<ul>
-		<li><a href="https://www.twitter.com/daveredfern">@daveredfern</a></li>
-		<li><a href="mailto:dave@daveredfern.com">dave@daveredfern.com</a></li>
-		<li><a href="https://github.com/daveredfern">Github</a></li>
-		<li><a href="https://uk.linkedin.com/in/daveredfern">LinkedIn</a></li>
-	</ul>
+	<nav class="nav">
+		<?php wp_nav_menu( array( 'theme_location' => 'footer', 'container' => '', 'menu_id' => '' ) ); ?>
+	</nav>
 </div>
 
 <?php get_footer(); ?>

@@ -27,7 +27,8 @@ wp_oembed_add_provider('http://codepen.io/*/pen/*', 'http://codepen.io/api/oembe
 
 register_nav_menus( array(
 	'primary' => esc_html__( 'Primary', 'color-block' ),
-  'social' => esc_html__( 'Social', 'color-block' )
+  'social' => esc_html__( 'Social', 'color-block' ),
+  'footer' => esc_html__( 'Footer', 'color-block' )
 ) );
 
 

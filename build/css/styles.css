@@ -244,13 +244,11 @@ img {
   right: 0;
   background-color: #fff;
   padding: 1em 7vw; }
-  @media (min-width: 35em) {
-    .header {
-      position: fixed; } }
   .header > *:last-child {
     display: none; }
-  @media (min-width: 59em) {
+  @media (min-width: 35em) {
     .header {
+      position: fixed;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: justify;
