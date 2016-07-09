@@ -4,6 +4,13 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="u-section">
+		<div class="logo">
+			<span>K</span>
+			<span>a</span>
+			<span>r</span>
+			<span>e</span>
+			<span>n</span>
+		</div>
 		<?php the_content(); ?>
 	</div>
 <?php endwhile; else : ?>

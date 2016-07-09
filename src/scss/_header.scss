@@ -38,8 +38,9 @@
 
 .logo {
     font-size: 22vw;
-    letter-spacing: 7vw;
     text-transform: uppercase;
     font-weight: normal;
     margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }

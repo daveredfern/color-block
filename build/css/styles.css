@@ -261,7 +261,10 @@ img {
 
 .logo {
   font-size: 22vw;
-  letter-spacing: 7vw;
   text-transform: uppercase;
   font-weight: normal;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
