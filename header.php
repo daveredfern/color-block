@@ -30,11 +30,11 @@
 <body>
 
     <header class="u-section">
-        <div class="logo">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><i class="logo-icon"></i><span> <?php bloginfo( 'name' ); ?></span></a>
-        </div>
-
         <nav class="nav">
             <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
+        </nav>
+
+		<nav class="nav">
+            <?php wp_nav_menu( array( 'theme_location' => 'social', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
         </nav>
     </header>
