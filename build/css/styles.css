@@ -183,10 +183,12 @@ img {
   list-style: none; }
 
 
-.u-list-inline > *:not(:last-child) {
+.u-list-inline > * {
   display: inline-block;
-  margin-right: 1em;
   margin-bottom: 0; }
+  
+  .u-list-inline > *:not(:last-child) {
+    margin-right: 1em; }
 
 .u-reset-type {
   line-height: 1.618;
