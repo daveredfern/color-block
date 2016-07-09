@@ -277,4 +277,5 @@ img {
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  color: #111; }
+  color: #111;
+  line-height: 1; }
