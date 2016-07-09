@@ -291,7 +291,10 @@ img {
   -ms-flex-align: center;
       align-items: center;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .project > * {
     width: 60%;
     max-width: 30em; }
