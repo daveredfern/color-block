@@ -4,14 +4,20 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="u-section">
-		<div class="logo">
-			<span>K</span>
-			<span>a</span>
-			<span>r</span>
-			<span>e</span>
-			<span>n</span>
+		<div class="welcome">
+			<div class="welcome__header">
+				<div class="logo">
+					<span>K</span>
+					<span>a</span>
+					<span>r</span>
+					<span>e</span>
+					<span>n</span>
+				</div>
+			</div>
+			<div class="welcome__body">
+				<?php the_content(); ?>
+			</div>
 		</div>
-		<?php the_content(); ?>
 	</div>
 <?php endwhile; else : ?>
 	<div class="u-container u-section">
