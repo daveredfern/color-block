@@ -44,7 +44,7 @@
 .u-list-inline {
     @extend %u-list-unstyled;
 
-    > * {
+    > *:not(:last-child) {
         display: inline-block;
         margin-right: 1em;
         margin-bottom: 0;
