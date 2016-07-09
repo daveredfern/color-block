@@ -247,11 +247,17 @@ img {
   padding: 1em 2em; }
   @media (min-width: 35em) {
     .header {
-      position: fixed;
+      position: fixed; } }
+  .header > *:last-child {
+    display: none; }
+  @media (min-width: 59em) {
+    .header {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: justify;
-          justify-content: space-between; } }
+          justify-content: space-between; }
+      .header > *:last-child {
+        display: block; } }
 
 .nav > * {
   margin-bottom: 0;

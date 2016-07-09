@@ -30,11 +30,14 @@
 <body>
 
     <header class="header">
-        <nav class="nav">
-            <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
-        </nav>
-
-		<nav class="nav">
-            <?php wp_nav_menu( array( 'theme_location' => 'social', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
-        </nav>
+		<div class="header__nav header__nav--main">
+			<nav class="nav">
+            	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
+        	</nav>
+		</div>
+		<div class="header__nav header__nav--social">
+			<nav class="nav">
+        	    <?php wp_nav_menu( array( 'theme_location' => 'social', 'menu_class' => 'u-list-inline', 'container' => '', 'menu_id' => '' ) ); ?>
+        	</nav>
+		</div>
     </header>
