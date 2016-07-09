@@ -24,16 +24,6 @@
 
 	<style>
 		<?php echo file_get_contents(get_template_directory() . '/build/css/styles.css'); ?>
-		<?php
-			if( is_front_page() ) {
-				echo file_get_contents(get_template_directory() . '/build/css/home.css');
-			}
-		?>
-		<?php
-			if( is_post_type_archive('photography') || is_singular('photography') ) {
-				echo file_get_contents(get_template_directory() . '/build/css/photography.css');
-			}
-		?>
 	</style>
 
 	<?php wp_head(); ?>
