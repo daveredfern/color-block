@@ -9,11 +9,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    @media(min-width: $screen-md) {
-        height: 65vh;
+    @media(min-width: $screen-sm) {
+        height: 60vh;
     }
 
-    @media(min-width: $screen-lg) {
+    @media(min-width: $screen-md) {
         height: 80vh;
     }
 

@@ -295,10 +295,10 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
-  @media (min-width: 59em) {
+  @media (min-width: 35em) {
     .project {
-      height: 65vh; } }
-  @media (min-width: 66em) {
+      height: 60vh; } }
+  @media (min-width: 59em) {
     .project {
       height: 80vh; } }
   .project > * {
