@@ -44,7 +44,7 @@ html {
   color: #f9f9f5; }
 
 body {
-  padding: 7vw; }
+  padding: 2em; }
 
 p, ul, ol {
   margin-bottom: 1.618em; }
@@ -106,7 +106,7 @@ iframe {
   width: 100%; }
 
 a {
-  color: #0f73ee;
+  color: #111;
   -ms-touch-action: manipulation;
       touch-action: manipulation; }
   a:hover {
@@ -124,6 +124,7 @@ h1, h2, h3,
 .h1, .h2, .h3 {
   color: #111;
   margin-bottom: 0.6em;
+  font-weight: bold;
   margin-top: 0;
   line-height: 1.318; }
 
@@ -140,36 +141,24 @@ h1, .h1 {
   @media (min-width: 59em) {
     h1, .h1 {
       font-size: 2.7em; } }
-  @media (min-width: 66em) {
-    h1, .h1 {
-      font-size: 3em; } }
 
 h2, .h2 {
   font-size: 1.5em; }
   @media (min-width: 59em) {
     h2, .h2 {
       font-size: 1.65em; } }
-  @media (min-width: 66em) {
-    h2, .h2 {
-      font-size: 1.8em; } }
 
 h3, .h3 {
   font-size: 1.2em; }
   @media (min-width: 59em) {
     h3, .h3 {
       font-size: 1.32em; } }
-  @media (min-width: 66em) {
-    h3, .h3 {
-      font-size: 1.5em; } }
 
 h4, .h4 {
   font-size: 1em; }
   @media (min-width: 59em) {
     h4, .h4 {
       font-size: 1.1em; } }
-  @media (min-width: 66em) {
-    h4, .h4 {
-      font-size: 1.2em; } }
 
 img {
   display: block;
@@ -249,47 +238,17 @@ img {
 .g-limit > * {
   max-width: 35em; }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 1em 2em;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
 .current-menu-item {
   opacity: 0.5; }
-
-.logo {
-  margin-bottom: 0.8em; }
-  .logo a {
-    text-decoration: none;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -ms-flex-align: center;
-        align-items: center;
-    color: #111; }
-    .logo a:hover,
-    .logo a:hover span, .logo a:focus,
-    .logo a:focus span {
-      opacity: 1; }
-    .logo a:focus .logo-icon {
-      background-color: #fff; }
-      .logo a:focus .logo-icon:after {
-        border-bottom-color: #0f73ee; }
-  .logo span {
-    opacity: 0;
-    display: inline-block;
-    margin-left: 0.5em;
-    transition: opacity 0.3s ease; }
-
-.logo-icon {
-  display: block;
-  height: 1.7em;
-  width: 1.7em;
-  background-color: #111;
-  border-radius: 0.15em;
-  position: relative; }
-  .logo-icon:after {
-    content: "";
-    position: absolute;
-    bottom: 0.3em;
-    right: 0.3em;
-    display: block;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 0 0.5em 1em;
-    border-color: transparent transparent #f9f9f5 transparent; }

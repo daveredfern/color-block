@@ -26,7 +26,7 @@ html {
 }
 
 body {
-    padding: 7vw;
+    padding: 2em;
 }
 
 p, ul, ol {
@@ -116,7 +116,7 @@ iframe {
 
 a,
 %link {
-    color: $blue;
+    color: $dark-grey;
     touch-action: manipulation;
 
     &:hover {
