@@ -285,7 +285,7 @@ img {
 .project {
   min-height: 20em;
   max-height: 50em;
-  height: 70vh;
+  height: 80vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;

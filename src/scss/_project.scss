@@ -1,7 +1,7 @@
 .project {
     min-height: 20em;
     max-height: 50em;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,11 @@
     background-size: cover;
 
     > * {
-        width: 60%;
+        width: 70%;
         max-width: 30em;
+
+        @media(min-width $screen-md) {
+            width: 50%;
+        }
     }
 }
