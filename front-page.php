@@ -49,13 +49,13 @@
 			$inline_css = 'background-color:' . $featured_background_color . ';';
 		}
 		if($featured_background_image) {
-			$inline_css = 'background-image: url(' . $featured_background_image . ');';
+			$inline_css = 'background-image: url(' . $featured_background_image['url'] . ');';
 		}
 	?>
 
 	<div class="project"<?php if($inline_css) { echo ' style="' . $inline_css . '"'; }; ?>>
 		<?php if($featured_foreground_image) : ?>
-			<img src="<?php echo $featured_foreground_image; ?>" alt="<?php the_title(); ?>" />
+			<img src="<?php echo $featured_foreground_image['url']; ?>" alt="<?php the_title(); ?>" />
 		<?php endif; ?>
 	</div>
 
