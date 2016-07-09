@@ -16,5 +16,9 @@
         @media(min-width: $screen-md) {
             width: 50%;
         }
+
+         @media(min-width: $screen-xl) {
+            width: 40%;
+        }
     }
 }

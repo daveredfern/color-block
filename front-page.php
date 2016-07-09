@@ -40,10 +40,6 @@
 		$featured_background_image = get_field('featured_background_image');
 		$featured_foreground_image = get_field('featured_foreground_image');
 
-		print_r($featured_background_color);
-		print_r($featured_background_image);
-		print_r($featured_foreground_image);
-
 		unset($inline_css);
 		if($featured_background_color) {
 			$inline_css = 'background-color:' . $featured_background_color . ';';
