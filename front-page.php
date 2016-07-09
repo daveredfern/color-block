@@ -28,11 +28,4 @@
 	</div>
 <?php endif; ?>
 
-<div class="u-container">
-	<h2>Contact me</h2>
-	<nav class="nav">
-		<?php wp_nav_menu( array( 'theme_location' => 'footer', 'container' => '', 'menu_id' => '' ) ); ?>
-	</nav>
-</div>
-
 <?php get_footer(); ?>
