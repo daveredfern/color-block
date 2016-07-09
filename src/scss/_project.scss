@@ -1,13 +1,21 @@
 .project {
     min-height: 20em;
     max-height: 50em;
-    height: 80vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media(min-width: $screen-md) {
+        height: 65vh;
+    }
+
+    @media(min-width: $screen-xl) {
+        width: 80vh;
+    }
 
     > * {
         width: 70%;
@@ -17,7 +25,7 @@
             width: 50%;
         }
 
-         @media(min-width: $screen-xl) {
+        @media(min-width: $screen-xl) {
             width: 40%;
         }
     }

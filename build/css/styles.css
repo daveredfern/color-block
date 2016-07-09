@@ -285,7 +285,7 @@ img {
 .project {
   min-height: 20em;
   max-height: 50em;
-  height: 80vh;
+  height: 50vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -295,6 +295,12 @@ img {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (min-width: 59em) {
+    .project {
+      height: 65vh; } }
+  @media (min-width: 90em) {
+    .project {
+      width: 80vh; } }
   .project > * {
     width: 70%;
     max-width: 30em; }
