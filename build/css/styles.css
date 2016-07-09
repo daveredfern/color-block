@@ -25,7 +25,7 @@ html {
   font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.618;
   color: #444;
-  background-color: #f9f9f5;
+  background-color: #f8f9fb;
   -webkit-text-size-adjust: 100%;
   font-size: 110%; }
   @media (min-width: 66em) {
@@ -37,11 +37,11 @@ html {
 
 ::-moz-selection {
   background-color: #0f73ee;
-  color: #f9f9f5; }
+  color: #f8f9fb; }
 
 ::selection {
   background-color: #0f73ee;
-  color: #f9f9f5; }
+  color: #f8f9fb; }
 
 body {
   padding: 2em; }
@@ -113,7 +113,7 @@ a {
     opacity: 0.5; }
   a:focus {
     background-color: #0f73ee;
-    color: #f9f9f5 !important;
+    color: #f8f9fb !important;
     outline: 0.2em solid #0f73ee;
     opacity: 1; }
 
@@ -258,3 +258,7 @@ img {
 
 .current-menu-item {
   opacity: 0.5; }
+
+.logo {
+  font-size: 10vw;
+  letter-spacing: 0.5vw; }
