@@ -224,7 +224,8 @@ img {
     width: 100%; }
     @media (min-width: 35em) {
       .g-two-up > * {
-        width: 50%; } }
+        width: 50%;
+        max-width: 20em; } }
 
 .g-center {
   -ms-flex-align: center;
