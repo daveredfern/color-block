@@ -262,7 +262,7 @@ img {
       transform: skewX(-20deg) translateY(-50%);
       border-radius: 3px;
       position: absolute;
-      right: 0;
+      right: 7px;
       top: 50%; }
   .nav > * a {
     text-decoration: none; }
