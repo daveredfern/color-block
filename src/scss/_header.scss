@@ -31,6 +31,19 @@
     margin-bottom: 0;
     font-weight: bold;
 
+    &:not(:last-child) {
+        padding-right: 1em;
+
+        &:after {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 2px;
+            background-color: $dark-grey;
+            transform: skewX(2deg);
+        }
+    }
+
     a {
         text-decoration: none;
     }

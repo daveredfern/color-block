@@ -250,6 +250,15 @@ img {
 .nav > * {
   margin-bottom: 0;
   font-weight: bold; }
+  .nav > *:not(:last-child) {
+    padding-right: 1em; }
+    .nav > *:not(:last-child):after {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 2px;
+      background-color: #3b3c3d;
+      transform: skewX(2deg); }
   .nav > * a {
     text-decoration: none; }
 
