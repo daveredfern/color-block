@@ -5,7 +5,12 @@
 		</div>
 		<div>
 			<h2>Contact me</h2>
-			<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'u-list-unstyled', 'container' => '', 'menu_id' => '' ) ); ?>
+			<ul class="u-list-unstyled">
+				<li>Email <a href="mailto:karenuppal05@gmail.com">karenuppal05@gmail.com</a></li>
+				<li>Tweet <a href="http://twitter.com/karenuppal05">@karenuppal05</a></li>
+				<li><a href="https://uk.linkedin.com/in/karen-uppal-14999466">LinkedIn</a></li>
+				<li><a href="https://www.instagram.com/karen.uppal/">Instagram</a></li>
+			</ul>
 		</div>
 	</div>
 
