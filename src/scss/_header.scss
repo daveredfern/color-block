@@ -33,15 +33,20 @@
 
     > * {
         &:not(:last-child) {
-            padding-right: 1em;
+            padding-right: 1.5em;
+            position: relative;
 
             &:after {
                 content: "";
-                display: block;
-                height: 100%;
+                display: inline-block;
+                height: 18px;
                 width: 2px;
-                background-color: $dark-grey;
-                transform: skewX(2deg);
+                background-color: #3b3c3d;
+                transform: skewX(-20deg) translateY(-50%);
+                border-radius: 3px;
+                position: absolute;
+                right: 0;
+                top: 50%;
             }
         }
     }
