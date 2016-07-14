@@ -33,8 +33,9 @@
 
     > * {
         &:not(:last-child) {
-            padding-right: 1.5em;
+            padding-right: 1.3em;
             position: relative;
+            margin-right: 0.8em;
 
             &:after {
                 content: "";

@@ -251,8 +251,9 @@ img {
   margin-bottom: 0;
   font-weight: bold; }
   .nav > * > *:not(:last-child) {
-    padding-right: 1.5em;
-    position: relative; }
+    padding-right: 1.3em;
+    position: relative;
+    margin-right: 0.8em; }
     .nav > * > *:not(:last-child):after {
       content: "";
       display: inline-block;
