@@ -244,15 +244,15 @@ img {
   padding: 1em 7vw;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: end;
-      align-items: flex-end; }
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
 
 .nav > * {
   margin-bottom: 0;
   font-weight: bold; }
-  .nav > *:not(:last-child) {
+  .nav > * > *:not(:last-child) {
     padding-right: 1em; }
-    .nav > *:not(:last-child):after {
+    .nav > * > *:not(:last-child):after {
       content: "";
       display: block;
       height: 100%;

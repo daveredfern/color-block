@@ -10,7 +10,7 @@
     background-color: $white;
     padding: 1em 7vw;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 
     // @media(min-width:$screen-sm) {
     //     display: flex;
@@ -31,16 +31,18 @@
     margin-bottom: 0;
     font-weight: bold;
 
-    &:not(:last-child) {
-        padding-right: 1em;
+    > * {
+        &:not(:last-child) {
+            padding-right: 1em;
 
-        &:after {
-            content: "";
-            display: block;
-            height: 100%;
-            width: 2px;
-            background-color: $dark-grey;
-            transform: skewX(2deg);
+            &:after {
+                content: "";
+                display: block;
+                height: 100%;
+                width: 2px;
+                background-color: $dark-grey;
+                transform: skewX(2deg);
+            }
         }
     }
 
