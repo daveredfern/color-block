@@ -9,19 +9,17 @@
     right: 0;
     background-color: $white;
     padding: 1em 7vw;
+    display: flex;
+    align-items: flex-end;
 
-    > *:last-child {
-        display: none;
-    }
-
-    @media(min-width:$screen-md) {
-        display: flex;
-        justify-content: space-between;
-
-        > *:last-child {
-            display: block;
-        }
-    }
+    // @media(min-width:$screen-sm) {
+    //     display: flex;
+    //     justify-content: space-between;
+    //
+    //     > *:last-child {
+    //         display: block;
+    //     }
+    // }
 }
 
 

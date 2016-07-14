@@ -241,17 +241,11 @@ img {
   left: 0;
   right: 0;
   background-color: #fff;
-  padding: 1em 7vw; }
-  .header > *:last-child {
-    display: none; }
-  @media (min-width: 59em) {
-    .header {
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-      .header > *:last-child {
-        display: block; } }
+  padding: 1em 7vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: end;
+      align-items: flex-end; }
 
 .nav > * {
   margin-bottom: 0;
