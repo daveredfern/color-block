@@ -112,6 +112,9 @@ a {
     outline: 0.2em solid #0f73ee;
     opacity: 1; }
 
+.lead {
+  font-size: 1.2em; }
+
 .micro {
   font-size: 0.9em; }
 
@@ -286,6 +289,32 @@ img {
   color: #3b3c3d;
   line-height: 1;
   margin-top: 10vh; }
+
+.footer-menu {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap; }
+  .footer-menu > * {
+    width: 50%;
+    text-align: center; }
+    .footer-menu > *:not(:last-child) {
+      padding-right: 1.1em;
+      position: relative; }
+      .footer-menu > *:not(:last-child):after {
+        content: "";
+        display: inline-block;
+        height: 18px;
+        width: 2px;
+        background-color: #3b3c3d;
+        transform: skewX(-20deg) translateY(-50%);
+        border-radius: 3px;
+        position: absolute;
+        right: 7px;
+        top: 50%; }
+    @media (min-width: 59em) {
+      .footer-menu > * {
+        width: 25%; } }
 
 .project {
   min-height: 20em;
