@@ -282,9 +282,6 @@ img {
   .nav > * a {
     text-decoration: none; }
 
-.current-menu-item {
-  opacity: 0.5; }
-
 @keyframes fadedown {
   0% {
     opacity: 0;
