@@ -64,4 +64,11 @@
 </div>
 
 
+<div class="u-container u-section u-text-center u-center">
+		<p class="lead">I work for British Gymnastics, the governing body for gymnastics
+in the UK. As part of the Marketing and Communications team I help 
+promote events and recreational gymnastics to all ages.</p>
+	</div>
+
+
 <?php get_footer(); ?>

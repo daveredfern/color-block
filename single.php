@@ -13,7 +13,9 @@
 			<?php $margin = get_sub_field('remove_margin'); ?>
 			<div class="u-clearfix<?php if( $margin[0] != 'Yes') : ?> u-section<?php endif; ?> portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
 				<div class="u-container u-text-center u-center" style="color: <?php the_sub_field('portfolio_text_color'); ?>">
-					<?php the_sub_field('portfolio_text'); ?>
+					<div class="lead">
+						<?php the_sub_field('portfolio_text'); ?>
+					</div>
 				</div>
 			</div>
 		<?php elseif( get_row_layout() == 'portfolio_block_image' ): ?>

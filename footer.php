@@ -1,9 +1,5 @@
 
-	<div class="u-container u-section u-text-center u-center">
-		<p class="lead">I work for British Gymnastics, the governing body for gymnastics
-in the UK. As part of the Marketing and Communications team I help 
-promote events and recreational gymnastics to all ages.</p>
-	</div>
+	
 
 	<div class="u-container u-container--lg u-center u-section u-text-center">
 
@@ -13,6 +9,8 @@ promote events and recreational gymnastics to all ages.</p>
 		<li><a href="https://uk.linkedin.com/in/karen-uppal-14999466">LinkedIn</a></li>
 		<li><a href="https://www.instagram.com/karen.uppal/">Instagram</a></li>
 	</ul>
+
+	</div>
 
 </body>
 </html>
