@@ -362,6 +362,23 @@ img {
   background-size: cover;
   position: relative;
   opacity: 1 !important; }
+  .project__boom {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 99;
+    transform: translate(-50%, -50%);
+    transition: height 0.3s ease, width 0.3s ease; }
+    .project__boom .is-active {
+      height: 100vh;
+      width: 100vw;
+      position: fixed; }
+  .project:active .project__boom {
+    height: 100vh;
+    width: 100vw;
+    position: fixed; }
   @media (min-width: 35em) {
     .project {
       height: 60vh; } }

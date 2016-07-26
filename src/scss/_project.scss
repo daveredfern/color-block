@@ -11,6 +11,31 @@
     position: relative;
     opacity: 1 !important;
 
+    &__boom {
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        z-index: 99;
+        transform: translate(-50%,-50%);
+        transition: height 0.3s ease, width 0.3s ease;
+
+        .is-active {
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+        }
+    }
+
+    &:active {
+        .project__boom {
+            height: 100vh;
+            width: 100vw;
+            position: fixed;
+        }
+    }
+
     @media(min-width: $screen-sm) {
         height: 60vh;
     }
