@@ -2,12 +2,11 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="u-container u-section u-center">
-		<div class="u-section">
+		<div class="u-section u-section-end">
 			<h1 class="main-title"><?php the_title(); ?></h1>
 		</div>
 		<?php the_content(); ?>
 	</div>
-	<div class="u-section"></div>
 <?php endwhile; else : ?>
 	<div class="u-container">
 		<h1>Not Found</h1>

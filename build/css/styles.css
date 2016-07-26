@@ -223,6 +223,9 @@ img {
 .u-text-center {
   text-align: center; }
 
+.u-section-end {
+  margin-bottom: 15vh; }
+
 .g-two-up {
   display: -ms-flexbox;
   display: flex;
