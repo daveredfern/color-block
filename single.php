@@ -11,8 +11,9 @@
 	?>
 		<?php if( get_row_layout() == 'portfolio_block_text' ): ?>
 			<div class="u-clearfix<?php if(get_sub_field('remove_margin') != 'yes') : ?> u-section<?php endif; ?> portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
-				<div class="u-container u-text-center u-center">
-					<p class="lead" style="color: <?php the_sub_field('portfolio_text_color'); ?>"><?php the_sub_field('portfolio_text'); ?></p>
+				<div class="u-container u-text-center u-center" style="color: <?php the_sub_field('portfolio_text_color'); ?>">
+					<?php the_sub_field('portfolio_text'); ?>
+					<?php echo get_sub_field('remove_margin'); ?>
 				</div>
 			</div>
 		<?php elseif( get_row_layout() == 'portfolio_block_image' ): ?>
