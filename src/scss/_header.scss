@@ -114,7 +114,7 @@
             }
         }
 
-        @media(min-width: $screen-md) {
+        @media(max-width: $screen-sm-max) {
             width: 25%;
 
             &:nth-child(2):after {

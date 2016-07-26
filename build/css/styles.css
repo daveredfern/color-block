@@ -316,7 +316,7 @@ img {
         position: absolute;
         right: 7px;
         top: 50%; }
-    @media (min-width: 59em) {
+    @media (max-width: 58.99em) {
       .footer-menu > * {
         width: 25%; }
         .footer-menu > *:nth-child(2):after {
