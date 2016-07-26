@@ -15,7 +15,7 @@
 
 		<?php elseif( get_row_layout() == 'portfolio_block_image' ): ?>
 			<div class="u-container u-section" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
-				<img src="<?php the_sub_field('portfolio_image'); ?>" />
+				<img src="<?php the_sub_field('portfolio_image')['url']; ?>" />
 			</div>
 		<?php endif; ?>
 	<?php
