@@ -53,6 +53,8 @@
 		<?php if($featured_foreground_image) : ?>
 			<img src="<?php echo $featured_foreground_image['url']; ?>" alt="<?php the_title(); ?>" />
 		<?php endif; ?>
+		<div class="project__overlay" style="background-color: <?php echo $featured_foreground_image; ?>">
+		</div>
 	</div>
 
 	<?php

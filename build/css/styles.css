@@ -299,16 +299,31 @@ img {
       justify-content: center;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
   @media (min-width: 35em) {
     .project {
       height: 60vh; } }
   @media (min-width: 59em) {
     .project {
       height: 80vh; } }
-  .project > * {
+  .project img {
+    position: relative;
+    z-index: 2;
     width: 70%;
     max-width: 30em; }
     @media (min-width: 59em) {
-      .project > * {
+      .project img {
         width: 50%; } }
+  .project__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    z-index: 1;
+    transform: opacity 0.5s ease; }
+
+.project:hover .project__overlay {
+  opacity: 1; }
