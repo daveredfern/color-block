@@ -301,7 +301,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  display: block; }
+  display: block;
+  opacity: 1 !important; }
   @media (min-width: 35em) {
     .project {
       height: 60vh; } }

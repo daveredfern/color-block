@@ -10,6 +10,7 @@
     background-size: cover;
     position: relative;
     display: block;
+    opacity: 1 !important;
 
     @media(min-width: $screen-sm) {
         height: 60vh;
