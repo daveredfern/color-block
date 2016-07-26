@@ -54,7 +54,7 @@
 			<img src="<?php echo $featured_foreground_image['url']; ?>" alt="<?php the_title(); ?>" />
 		<?php endif; ?>
 		<div class="project__overlay" style="background-color: <?php echo $featured_background_color; ?>"></div>
-		<div class="project__boom" style="background-color: <?php echo $featured_background_color; ?>"></div>
+		<?php /*<div class="project__boom" style="background-color: <?php echo $featured_background_color; ?>"></div>*/?>
 	</a>
 
 	<?php

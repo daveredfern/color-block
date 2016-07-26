@@ -5,8 +5,6 @@
 		<h1 class="main-title"><?php the_title(); ?></h1>
 	</div>
 
-	<div class="boom" style="background-color: <?php echo get_field('featured_background_color'); ?>"></div>
-
 	<?php
 		if( have_rows('portfolio_blocks') ):
 			while ( have_rows('portfolio_blocks') ) : the_row();
