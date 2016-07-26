@@ -14,7 +14,7 @@
 
 
 		<?php elseif( get_row_layout() == 'portfolio_block_image' ): ?>
-			<div class="u-clearfix u-section" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
+			<div class="u-clearfix u-section portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
 				<div class="u-container">
 					<?php
 						$image = get_sub_field('portfolio_image');
