@@ -10,13 +10,13 @@
 			while ( have_rows('portfolio_blocks') ) : the_row();
 	?>
 		<?php if( get_row_layout() == 'portfolio_block_text' ): ?>
-			<div class="u-clearfix u-section portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
+			<div class="u-clearfix<?php if(get_sub_field('remove_margin') != 'yes') : ?> u-section<?php endif; ?> portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
 				<div class="u-container u-text-center u-center">
-					<p class="lead"><?php the_sub_field('portfolio_text'); ?></p>
+					<p class="lead" style="color: <?php the_sub_field('portfolio_text_color'); ?>"><?php the_sub_field('portfolio_text'); ?></p>
 				</div>
 			</div>
 		<?php elseif( get_row_layout() == 'portfolio_block_image' ): ?>
-			<div class="u-clearfix u-section portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
+			<div class="u-clearfix<?php if(get_sub_field('remove_margin') != 'yes') : ?> u-section<?php endif; ?> portfolio-box" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
 				<div class="u-container-lg u-center">
 					<?php
 						$image = get_sub_field('portfolio_image');
