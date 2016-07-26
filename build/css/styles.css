@@ -316,11 +316,12 @@ img {
         position: absolute;
         right: 7px;
         top: 50%; }
-    @media (max-width: 58.99em) {
+    @media (min-width: 59em) {
       .footer-menu > * {
-        width: 25%; }
-        .footer-menu > *:nth-child(2):after {
-          display: none; } }
+        width: 25%; } }
+    @media (max-width: 58.99em) {
+      .footer-menu > *:nth-child(2):after {
+        display: none; } }
 
 .project {
   min-height: 20em;
