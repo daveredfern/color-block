@@ -307,7 +307,7 @@ img {
       height: 60vh; } }
   @media (min-width: 59em) {
     .project {
-      height: 80vh; } }
+      height: 70vh; } }
   .project img {
     position: relative;
     z-index: 2;
