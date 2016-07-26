@@ -301,7 +301,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  display: block;
   opacity: 1 !important; }
   @media (min-width: 35em) {
     .project {
@@ -325,7 +324,7 @@ img {
     bottom: 0;
     opacity: 0;
     z-index: 1;
-    transform: opacity 0.5s ease; }
+    transition: opacity 0.5s ease; }
 
 .project:hover .project__overlay {
   opacity: 1; }
