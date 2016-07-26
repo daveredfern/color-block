@@ -14,15 +14,16 @@
 
 
 		<?php elseif( get_row_layout() == 'portfolio_block_image' ): ?>
-			<div class="u-container u-section" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
-				<?php
-					$image = get_sub_field('portfolio_image');
-					print_r($image);
-				?>
-				<img src="<?php echo $image['url']; ?>" />
-				<?php
-					unset($image);
-				?>
+			<div class="u-clearfix u-section" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
+				<div class="u-container">
+					<?php
+						$image = get_sub_field('portfolio_image');
+					?>
+					<img src="<?php echo $image['url']; ?>" />
+					<?php
+						unset($image);
+					?>
+				</div>
 			</div>
 		<?php endif; ?>
 	<?php
