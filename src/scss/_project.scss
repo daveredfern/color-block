@@ -28,7 +28,8 @@
         }
     }
 
-    &:active {
+    &:focus {
+        outline: 0;
         .project__boom {
             height: 100vh;
             width: 100vw;
