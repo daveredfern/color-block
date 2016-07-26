@@ -49,7 +49,7 @@
 		}
 	?>
 
-	<a href="#" class="project"<?php if($inline_css) { echo ' style="' . $inline_css . '"'; }; ?>>
+	<a href="<?php the_permalink(); ?>" class="project"<?php if($inline_css) { echo ' style="' . $inline_css . '"'; }; ?>>
 		<?php if($featured_foreground_image) : ?>
 			<img src="<?php echo $featured_foreground_image['url']; ?>" alt="<?php the_title(); ?>" />
 		<?php endif; ?>
