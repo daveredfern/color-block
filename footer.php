@@ -1,9 +1,11 @@
 
-	<div class="u-container u-text-center">
+	<div class="u-container u-section u-text-center">
 		<p class="lead">I work for British Gymnastics, the governing body for gymnastics
 in the UK. As part of the Marketing and Communications team I help 
 promote events and recreational gymnastics to all ages.</p>
 	</div>
+
+	<div class="u-container u-container--lg u-section u-text-center">
 
 	<ul class="footer-menu u-list-unstyled">
 		<li><a href="mailto:karenuppal05@gmail.com">Email me</a></li>
