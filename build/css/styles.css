@@ -418,10 +418,13 @@ img {
   transform: translate(-50%, -50%);
   transition: height 0.3s ease, width 0.3s ease; }
 
-@keyframes boom {
+@keyframes boom-down {
   0% {
     height: 100vh;
     width: 100vw; }
   100% {
-    height: 100vh;
-    width: 100vw; } }
+    height: 0;
+    width: 0; } }
+
+.boom {
+  animation: boom-down .3s ease-out 1; }
