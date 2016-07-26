@@ -17,6 +17,7 @@
 			<div class="u-container u-section" style="background-color: <?php the_sub_field('portfolio_background_color'); ?>">
 				<?php
 					$image = get_sub_field('featured_foreground_image');
+					print_r($image);
 				?>
 				<img src="<?php echo $image['url']; ?>" />
 				<?php
