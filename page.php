@@ -7,6 +7,7 @@
 		</div>
 		<?php the_content(); ?>
 	</div>
+	<div class="u-section"></div>
 <?php endwhile; else : ?>
 	<div class="u-container">
 		<h1>Not Found</h1>
