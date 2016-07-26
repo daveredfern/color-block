@@ -27,7 +27,7 @@ html {
   color: #555;
   background-color: #f8f9fb;
   -webkit-text-size-adjust: 100%;
-  font-size: 110%;
+  font-size: 130%;
   overflow-x: hidden; }
 
 ::-moz-selection {
@@ -255,7 +255,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: end;
-      justify-content: flex-end; }
+      justify-content: flex-end;
+  z-index: 3; }
 
 .nav > * {
   margin-bottom: 0;
