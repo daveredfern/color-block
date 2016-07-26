@@ -285,6 +285,14 @@ img {
 .current-menu-item {
   opacity: 0.5; }
 
+@keyframes fadedown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
 .welcome {
   margin-bottom: 20vh;
   animation: fadedown 1s ease-out 1; }
@@ -310,14 +318,6 @@ img {
   font-size: 6vw;
   text-transform: uppercase;
   text-align: center; }
-
-@keyframes fadedown {
-  0% {
-    opacity: 0;
-    transform: translateX(-10%); }
-  100% {
-    opacity: 1;
-    transform: translateX(0); } }
 
 .footer-menu {
   display: -ms-flexbox;
