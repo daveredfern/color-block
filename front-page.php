@@ -49,13 +49,13 @@
 		}
 	?>
 
-	<div class="project"<?php if($inline_css) { echo ' style="' . $inline_css . '"'; }; ?>>
+	<a href="#" class="project"<?php if($inline_css) { echo ' style="' . $inline_css . '"'; }; ?>>
 		<?php if($featured_foreground_image) : ?>
 			<img src="<?php echo $featured_foreground_image['url']; ?>" alt="<?php the_title(); ?>" />
 		<?php endif; ?>
-		<div class="project__overlay" style="background-color: <?php echo $featured_foreground_image; ?>">
+		<div class="project__overlay" style="background-color: <?php echo $featured_background_color; ?>">
 		</div>
-	</div>
+	</a>
 
 	<?php
 		endwhile; endif;
