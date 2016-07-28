@@ -39,7 +39,7 @@ html {
   color: #f8f9fb; }
 
 body {
-  padding: 10vh 0 7vw; }
+  padding: 18vh 0 10vh; }
 
 p, ul, ol {
   margin-bottom: 1.618em; }
@@ -298,7 +298,7 @@ img {
     transform: translateY(0); } }
 
 .welcome {
-  margin-bottom: 20vh;
+  margin-bottom: 15vh;
   animation: fadedown 1s ease-out 1; }
 
 .logo {
