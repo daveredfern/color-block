@@ -176,12 +176,10 @@ img {
   margin-right: 7vw; }
 
 .u-container {
-  max-width: 33em; }
+  max-width: 33em;
+  width: 90%; }
   .u-container--lg {
     max-width: 53em; }
-  @media (min-width: 59em) {
-    .u-container {
-      width: 90%; } }
 
 .u-center {
   margin-left: auto;

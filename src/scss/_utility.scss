@@ -9,13 +9,10 @@
 
 .u-container {
     max-width: $screen-sm - 2em;
+    width: 90%;
 
     &--lg {
         max-width: $screen-md - 6em;
-    }
-
-    @media(min-width: $screen-md) {
-        width: 90%;
     }
 }
 
