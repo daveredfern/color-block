@@ -2,6 +2,11 @@
 // Container
 // =============================================
 
+.u-container-wide {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
 .u-container {
     max-width: $screen-sm - 2em;
 

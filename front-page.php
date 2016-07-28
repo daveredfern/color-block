@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div class="u-section">
+	<div class="u-section u-container-wide">
 		<div class="welcome">
 			<div class="welcome__header">
 				<div class="logo">

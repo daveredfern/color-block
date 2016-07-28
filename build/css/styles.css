@@ -39,7 +39,7 @@ html {
   color: #f8f9fb; }
 
 body {
-  padding: 5em 0 7vw; }
+  padding: 10vh 0 7vw; }
 
 p, ul, ol {
   margin-bottom: 1.618em; }
@@ -161,6 +161,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto; }
+
+.u-container-wide {
+  margin-left: 7vw;
+  margin-right: 7vw; }
 
 .u-container {
   max-width: 33em; }
@@ -307,8 +311,7 @@ img {
   -ms-flex-pack: justify;
       justify-content: space-between;
   color: #3b3c3d;
-  line-height: 1;
-  margin-top: 10vh; }
+  line-height: 1; }
 
 @media (max-width: 58.99em) {
   .welcome__body p {
