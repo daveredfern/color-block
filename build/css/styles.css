@@ -319,7 +319,7 @@ img {
   display: flex;
   -ms-flex-flow: wrap;
       flex-flow: wrap; }
-  @media (max-width: 58.99em) {
+  @media (max-width: 34.99em) {
     .footer-menu {
       margin-left: 14vw;
       margin-right: 14vw; } }

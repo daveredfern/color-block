@@ -98,7 +98,7 @@
     display: flex;
     flex-flow:wrap;
 
-    @media(max-width: $screen-sm-max) {
+    @media(max-width: $screen-xs-max) {
         margin-left: 14vw;
         margin-right: 14vw;
     }
