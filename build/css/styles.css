@@ -321,8 +321,8 @@ img {
       flex-flow: wrap; }
   @media (max-width: 58.99em) {
     .footer-menu {
-      margin-left: 5vw;
-      margin-right: 5vw; } }
+      margin-left: 14vw;
+      margin-right: 14vw; } }
   .footer-menu > * {
     width: 50%;
     text-align: center;
