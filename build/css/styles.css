@@ -269,23 +269,9 @@ img {
   z-index: 3; }
 
 .nav > * {
-  margin-bottom: 0;
-  font-weight: bold; }
+  margin-bottom: 0; }
   .nav > * > *:not(:last-child) {
-    padding-right: 1.1em;
-    position: relative;
-    margin-right: 0.6em; }
-    .nav > * > *:not(:last-child):after {
-      content: "";
-      display: inline-block;
-      height: 18px;
-      width: 2px;
-      background-color: #3b3c3d;
-      transform: skewX(-20deg) translateY(-50%);
-      border-radius: 3px;
-      position: absolute;
-      right: 7px;
-      top: 50%; }
+    padding-right: 1.1em; }
   .nav > * a {
     text-decoration: none; }
 
