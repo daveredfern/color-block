@@ -27,7 +27,7 @@ html {
   color: #555;
   background-color: #f8f9fb;
   -webkit-text-size-adjust: 100%;
-  font-size: 130%;
+  font-size: 115%;
   overflow-x: hidden; }
 
 ::-moz-selection {
@@ -39,7 +39,7 @@ html {
   color: #f8f9fb; }
 
 body {
-  padding: 5em 7vw 7vw; }
+  padding: 5em 0 7vw; }
 
 p, ul, ol {
   margin-bottom: 1.618em; }
