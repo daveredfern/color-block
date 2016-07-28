@@ -1,7 +1,7 @@
 
 	
 
-	<div class="u-container u-container--lg u-center u-section u-text-center">
+	<div class="u-container u-center u-section u-text-center">
 
 	<ul class="footer-menu u-list-unstyled">
 		<li><a href="mailto:karenuppal05@gmail.com">Email me</a></li>
