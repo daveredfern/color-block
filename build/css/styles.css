@@ -319,11 +319,15 @@ img {
   display: flex;
   -ms-flex-flow: wrap;
       flex-flow: wrap; }
+  @media (max-width: 58.99em) {
+    .footer-menu {
+      margin-left: 5vw;
+      margin-right: 5vw; } }
   .footer-menu > * {
     width: 50%;
     text-align: center;
     margin-bottom: 1em; }
-    @media (min-width: 59em) {
+    @media (min-width: 35em) {
       .footer-menu > * {
         width: 25%; } }
     @media (max-width: 58.99em) {
