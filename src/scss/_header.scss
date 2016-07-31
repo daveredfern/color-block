@@ -33,7 +33,7 @@
 
     > * {
         &:not(:last-child) {
-            padding-right: 1.1em;
+            padding-right: 0.7em;
         }
     }
 
@@ -62,7 +62,7 @@
 
 .welcome {
     margin-bottom: 13vh;
-    margin-top: 4vh;
+    margin-top: 2vh;
     animation: fadedown 1s ease-out 1;
 }
 
