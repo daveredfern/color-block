@@ -356,7 +356,12 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background: #3b3c3d; }
+  background: #3b3c3d;
+  outline: 0;
+  border: 0;
+  cursor: pointer; }
+  .back-to-top:hover {
+    opacity: .5; }
   .back-to-top span {
     content: '';
     display: inline-block;

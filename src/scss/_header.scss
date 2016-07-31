@@ -176,6 +176,13 @@
     margin-left: auto;
     margin-right: auto;
     background: $dark-grey;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .5;
+    }
 
     span {
         @include chevron($dark-grey, 16px, up, 2px);
