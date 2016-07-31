@@ -31,12 +31,6 @@
 .nav > * {
     margin-bottom: 0;
 
-    > * {
-        &:not(:last-child) {
-            padding-right: 0.7em;
-        }
-    }
-
     a {
         text-decoration: none;
     }

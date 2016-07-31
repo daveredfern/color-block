@@ -204,7 +204,7 @@ img {
   margin-bottom: 0; }
   
   .u-list-inline > *:not(:last-child) {
-    margin-right: 1em; }
+    margin-right: 1.4em; }
 
 .u-reset-type {
   line-height: 1.618;
@@ -277,8 +277,6 @@ img {
 
 .nav > * {
   margin-bottom: 0; }
-  .nav > * > *:not(:last-child) {
-    padding-right: 0.7em; }
   .nav > * a {
     text-decoration: none; }
 
