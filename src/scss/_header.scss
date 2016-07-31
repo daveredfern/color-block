@@ -78,9 +78,10 @@
     margin-left: 1.2vw;
     color: $dark-grey;
     margin-top: 2vh;
+    line-height: 1.3;
 }
 
-@media(min-width: $screen-sm-max) {
+@media(min-width: $screen-md) {
     .welcome__body p {
         font-size: $h2-font-size !important;
     }
