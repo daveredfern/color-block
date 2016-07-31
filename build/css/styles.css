@@ -319,11 +319,15 @@ img {
   margin-left: 1.2vw;
   color: #3b3c3d;
   margin-top: 2vh;
-  line-height: 1.3; }
+  line-height: 1.2; }
 
-@media (min-width: 59em) {
+@media (min-width: 35em) {
   .welcome__body p {
     font-size: 1.5em !important; } }
+
+@media (min-width: 66em) {
+  .welcome__body p {
+    font-size: 2em !important; } }
 
 .main-title {
   text-transform: uppercase;
