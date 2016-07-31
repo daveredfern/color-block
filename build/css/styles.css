@@ -39,7 +39,7 @@ html {
   color: #f8f9fb; }
 
 body {
-  padding: 15vh 0 10vh; }
+  padding: calc(15vh + 65px) 0 10vh; }
 
 p, ul, ol {
   margin-bottom: 1.618em; }
