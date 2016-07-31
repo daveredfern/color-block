@@ -291,7 +291,8 @@ img {
     transform: translateY(0); } }
 
 .welcome {
-  margin-bottom: 15vh;
+  margin-bottom: 13vh;
+  margin-top: 4vh;
   animation: fadedown 1s ease-out 1; }
 
 .logo {
@@ -340,6 +341,28 @@ img {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto; }
+
+.back-to-top {
+  width: 2px;
+  position: relative;
+  height: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #3b3c3d; }
+  .back-to-top span {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border-top: 2px solid #3b3c3d;
+    border-right: 2px solid #3b3c3d;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); }
 
 .project {
   min-height: 20em;

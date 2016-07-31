@@ -61,7 +61,8 @@
 }
 
 .welcome {
-    margin-bottom: 15vh;
+    margin-bottom: 13vh;
+    margin-top: 4vh;
     animation: fadedown 1s ease-out 1;
 }
 
@@ -129,5 +130,50 @@
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+
+@mixin chevron($color: #000, $size: 5px, $direction: left, $thickness: 1px) {
+    content: '';
+    display: inline-block;
+    width: $size;
+    height: $size;
+    background: transparent;
+    border-top: $thickness solid $color;
+    border-right: $thickness solid $color;
+    
+    @if $direction == up {
+        transform: rotate(-45deg);
+    }
+
+    @if $direction == down {
+        transform: rotate(135deg);
+    }
+
+    @if $direction == left {
+        transform: rotate(-135deg);
+    }
+
+    @if $direction == right {
+        transform: rotate(45deg);
+    }
+}
+
+.back-to-top {
+    width: 2px;
+    position: relative;
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: $dark-grey;
+
+    span {
+        @include chevron($dark-grey, 10px, up, 2px);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }

@@ -12,5 +12,11 @@
 
 	</div>
 
+	<div class="u-container u-center u-section u-text-center">
+
+		<a href="#top" class="back-to-top"></a>
+
+	</div>
+
 </body>
 </html>
