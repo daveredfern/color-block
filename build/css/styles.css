@@ -323,11 +323,11 @@ img {
 
 @media (min-width: 35em) {
   .welcome__body p {
-    font-size: 1.5em !important; } }
+    font-size: 1.8em !important; } }
 
 @media (min-width: 66em) {
   .welcome__body p {
-    font-size: 2em !important; } }
+    font-size: 3em !important; } }
 
 .main-title {
   text-transform: uppercase;

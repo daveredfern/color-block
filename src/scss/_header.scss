@@ -83,13 +83,13 @@
 
 @media(min-width: $screen-sm) {
     .welcome__body p {
-        font-size: $h2-font-size !important;
+        font-size: $h2-font-size*1.2 !important;
     }
 }
 
 @media(min-width: $screen-lg) {
     .welcome__body p {
-        font-size: $h1-font-size !important;
+        font-size: $h1-font-size*1.5 !important;
     }
 }
 
