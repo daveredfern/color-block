@@ -11,13 +11,19 @@
 
 @font-face {
   font-family: 'PT Sans';
-  src: url("../vendor/webfont/pt_sans-web-italic-webfont.woff2") format("woff2"), url("../vendor/webfont/pt_sans-web-italic-webfont.woff") format("woff");
+  src: url("../vendor/webfont/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../vendor/webfont/pt_sans-web-regular-webfont.woff") format("woff");
   font-weight: normal;
-  font-style: italic; }
+  font-style: normal; }
 
 @font-face {
-  font-family: 'PT Sans';
-  src: url("../vendor/webfont/pt_sans-web-regular-webfont.woff2") format("woff2"), url("../vendor/webfont/pt_sans-web-regular-webfont.woff") format("woff");
+  font-family: 'Open Sans';
+  src: url("../vendor/webfont/opensans-extrabold-webfont.woff2") format("woff2"), url("../vendor/webfont/opensans-extrabold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../vendor/webfont/opensans-regular-webfont.woff2") format("woff2"), url("../vendor/webfont/opensans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -107,13 +113,14 @@ a {
   a:hover {
     opacity: 0.5; }
   a:focus {
-    background-color: #0f73ee;
+    background-color: #3b3c3d;
     color: #f8f9fb !important;
     outline: 0.2em solid #0f73ee;
     opacity: 1; }
 
-.lead {
-  font-size: 1.2em; }
+@media (min-width: 59em) {
+  .lead {
+    font-size: 1.2em; } }
 
 .micro {
   font-size: 0.9em; }
@@ -124,7 +131,8 @@ h1, h2, h3,
   margin-bottom: 0.6em;
   font-weight: bold;
   margin-top: 0;
-  line-height: 1.1; }
+  line-height: 1.1;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; }
 
 * + h1, * + h2, * + h3,
 * + .h1, * + .h2, * + .h3 {

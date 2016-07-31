@@ -116,7 +116,7 @@ a,
     }
 
     &:focus {
-        background-color: $blue;
+        background-color: $dark-grey;
         color: $light-grey !important;
         outline: 0.2em solid $blue;
         opacity: 1;
@@ -129,7 +129,9 @@ a,
 // =============================================
 
 .lead {
-    font-size: $lg-font-size;
+    @media(min-width: $screen-md) {
+        font-size: $lg-font-size;
+    }
 }
 
 

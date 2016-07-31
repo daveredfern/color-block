@@ -9,6 +9,7 @@ h1, h2, h3,
     font-weight: bold;
     margin-top: 0;
     line-height: $heading-line-height;
+    font-family: $heading-font-family;
 }
 
 * + h1, * + h2, * + h3,
