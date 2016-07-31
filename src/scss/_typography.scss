@@ -118,7 +118,7 @@ a,
     &:focus {
         background-color: $dark-grey;
         color: $light-grey !important;
-        outline: 0.2em solid $blue;
+        outline: 0.2em solid $dark-grey;
         opacity: 1;
     }
 }
