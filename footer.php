@@ -14,7 +14,7 @@
 
 	<div class="u-container u-center u-section u-text-center">
 
-		<a href="#top" class="back-to-top" id="scrollme"><span></span></a>
+		<button type="button" class="back-to-top" id="scrollme"><span></span></button>
 
 	</div>
 
