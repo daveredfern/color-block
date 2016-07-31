@@ -316,9 +316,11 @@ img {
 
 .welcome__body p {
   font-size: 1.2em;
-  margin-left: 1.2vw; }
+  margin-left: 1.2vw;
+  color: #3b3c3d;
+  margin-top: 2vh; }
 
-@media (max-width: 58.99em) {
+@media (min-width: 58.99em) {
   .welcome__body p {
     font-size: 1.5em !important; } }
 

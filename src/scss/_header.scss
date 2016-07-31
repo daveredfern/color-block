@@ -76,9 +76,11 @@
 .welcome__body p {
     font-size: $h3-font-size;
     margin-left: 1.2vw;
+    color: $dark-grey;
+    margin-top: 2vh;
 }
 
-@media(max-width: $screen-sm-max) {
+@media(min-width: $screen-sm-max) {
     .welcome__body p {
         font-size: $h2-font-size !important;
     }
