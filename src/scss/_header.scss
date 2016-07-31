@@ -160,20 +160,28 @@
     }
 }
 
+#top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+}
+
 .back-to-top {
     width: 2px;
     position: relative;
-    height: 10px;
+    height: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     background: $dark-grey;
 
     span {
-        @include chevron($dark-grey, 10px, up, 2px);
+        @include chevron($dark-grey, 16px, up, 2px);
         position: absolute;
         top: 0;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%) rotate(-45deg);
     }
 }
