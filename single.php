@@ -36,7 +36,7 @@
 		endif;
 	?>
 
-	<?php $next_post = get_adjacent_post( true, '', false, 'taxonomy_slug' ); ?>
+	<?php $next_post = mod_get_adjacent_post( 'prev', 'projects' ); ?>
 	<?php if ( is_a( $next_post, 'WP_Post' ) ) {  ?>
 		<a href="<?php echo get_permalink( $next_post->ID ); ?>"><?php echo get_the_title( $next_post->ID ); ?></a>
 	<?php } ?>
