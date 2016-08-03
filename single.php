@@ -36,6 +36,11 @@
 		endif;
 	?>
 
+	<?php $next_post = get_adjacent_post( true, '', false, 'taxonomy_slug' ); ?>
+	<?php if ( is_a( $next_post, 'WP_Post' ) ) {  ?>
+		<a href="<?php echo get_permalink( $next_post->ID ); ?>"><?php echo get_the_title( $next_post->ID ); ?></a>
+	<?php } ?>
+
 <?php endwhile; else : ?>
 	<div class="u-container">
 		<h1>Not Found</h1>
