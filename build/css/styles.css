@@ -457,7 +457,8 @@ img {
 
 .next-post > * {
   margin: 10vw auto 15vw;
-  max-width: 50em; }
+  max-width: 50em;
+  width: 90%; }
 
 .next-post * {
   text-align: left !important;
