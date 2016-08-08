@@ -463,6 +463,6 @@ img {
     max-width: 50em; }
   .next-post * {
     text-align: left !important;
-    text-decoration: underline; }
+    text-decoration: none; }
   .next-post .main-title {
     margin-top: 0; }
