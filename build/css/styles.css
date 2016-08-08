@@ -455,14 +455,13 @@ img {
 .project:hover .project__overlay {
   opacity: 1; }
 
-.next-post {
-  padding: 15vw 0;
-  margin-left: auto;
-  margin-right: auto; }
-  .next-post > * {
-    max-width: 50em; }
-  .next-post * {
-    text-align: left !important;
-    text-decoration: none; }
-  .next-post .main-title {
-    margin-top: 0; }
+.next-post > * {
+  margin: 10vw auto 15vw;
+  max-width: 50em; }
+
+.next-post * {
+  text-align: left !important;
+  text-decoration: none; }
+
+.next-post .main-title {
+  margin-top: 0; }
