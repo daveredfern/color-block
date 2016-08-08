@@ -456,5 +456,8 @@ img {
   opacity: 1; }
 
 .next-post {
-  padding: 10vw 0;
-  text-align: left !important; }
+  padding: 10vw 0; }
+  .next-post * {
+    text-align: left !important; }
+  .next-post .main-heading {
+    margin-top: 0; }
