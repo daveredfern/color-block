@@ -456,8 +456,13 @@ img {
   opacity: 1; }
 
 .next-post {
-  padding: 10vw 0; }
+  padding: 15vw 0;
+  margin-left: auto;
+  margin-right: auto; }
+  .next-post > * {
+    max-width: 50em; }
   .next-post * {
-    text-align: left !important; }
+    text-align: left !important;
+    text-decoration: underline; }
   .next-post .main-title {
     margin-top: 0; }

@@ -73,9 +73,17 @@
 }
 
 .next-post {
-    padding: 10vw 0;
+    padding: 15vw 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    > * {
+        max-width: 50em;
+    }
+
     * {
         text-align: left !important;
+        text-decoration: underline;
     }
     .main-title {
         margin-top: 0;
