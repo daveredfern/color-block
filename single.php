@@ -53,7 +53,7 @@
 						<div class="next-post">
 							<div class="u-container-wide u-section">
 								<p>Next</p>
-								<h3 class="main-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+								<h2 class="main-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 							</div>
 						</div>
 					<?php
