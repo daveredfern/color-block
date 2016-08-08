@@ -74,5 +74,10 @@
 
 .next-post {
     padding: 10vw 0;
-    text-align: left !important;
+    * {
+        text-align: left !important;
+    }
+    .main-heading {
+        margin-top: 0;
+    }
 }
