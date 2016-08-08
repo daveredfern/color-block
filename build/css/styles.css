@@ -454,3 +454,7 @@ img {
 
 .project:hover .project__overlay {
   opacity: 1; }
+
+.next-post {
+  padding: 10vw 0;
+  text-align: left !important; }
