@@ -355,6 +355,10 @@ img {
 
 .portfolio-box {
   padding: 5vw; }
+  .portfolio-box--text {
+    padding-top: 10vw; }
+  .portfolio-box .u-container {
+    width: 100%; }
   .portfolio-box img {
     max-width: 100%;
     margin-left: auto;

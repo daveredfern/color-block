@@ -135,6 +135,14 @@
 .portfolio-box {
     padding: 5vw;
 
+    &--text {
+        padding-top :10vw;
+    }
+
+    .u-container {
+        width: 100%;
+    }
+
     img {
         max-width: 100%;
         margin-left: auto;
