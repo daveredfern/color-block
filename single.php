@@ -36,6 +36,35 @@
 		endif;
 	?>
 
+	<?php
+		$thisDate = get_the_time('Gisdmy');
+
+		$args = array (
+			'post_type' => array( 'projects' ),
+		);
+
+		$the_query = new WP_Query( $args );
+
+		if ( $the_query->have_posts() ) :
+			while ( $the_query->have_posts() ) :
+				$the_query->the_post();
+				if($thisDate < get_the_time('Gisdmy') && $next !== 1) :
+					?>
+						<div class="next-post">
+							<div class="u-container-wide u-section">
+								<p>Next</p>
+								<h2 class="main-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+							</div>
+						</div>
+					<?php
+					$next = 1;
+				endif;
+			endwhile;
+			/* Restore original Post Data */
+			wp_reset_postdata();
+		endif;
+	?>
+
 <?php endwhile; else : ?>
 	<div class="u-container">
 		<h1>Not Found</h1>
