@@ -14,11 +14,9 @@
 
 	<div class="u-container u-center u-section u-text-center">
 
-		<button type="button" class="back-to-top" id="scrollme"><span></span></button>
+		<a href="#top" class="back-to-top" id="scrollme"><span></span></a>
 
 	</div>
-
-	<script src="<?php echo get_template_directory_uri() ?>/build/js/script.js" async></script>
 
 </body>
 </html>
